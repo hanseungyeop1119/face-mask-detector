@@ -204,7 +204,7 @@ class MainWindow(QMainWindow):
         mainWindow = MainWindow()
         mainWindow.show()
         sys.exit(app.exec_())"""
-import sys
+"""import sys
 from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QVBoxLayout,QLabel
 from PyQt5.QtGui import QPixmap
 
@@ -247,4 +247,5 @@ class MyApp(QWidget):
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     ex = MyApp()
-    sys.exit(app.exec_())
+    sys.exit(app.exec_())"""
+
