@@ -27,7 +27,7 @@ for i in range(len(contents)):
 
     image_file =  open('data/without_mask/' + content['name'], 'wb')
     image_file.write(image_data)
-    print('다운로드 완료(' + str(i + 1) + '/' +  str(len(contents)) + '): '+  content['name'])
+    print('다운로드 완료(' + str(i + 1) + '/' +  str(len(contents)) + '): ' + content['name'])
     # 다운로드 완료(10/500): 10.jpg
     break
 
